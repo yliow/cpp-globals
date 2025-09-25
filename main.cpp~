@@ -1,0 +1,10 @@
+#include <iostream>
+#include "X.h"
+
+extern int a;
+
+int main()
+{
+    std::cout << "main a:" << a << std::endl;
+    return 0;
+}
